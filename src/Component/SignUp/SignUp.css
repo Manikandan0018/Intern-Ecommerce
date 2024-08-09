@@ -1,0 +1,89 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    top: 140px;
+    left: 430px;
+    
+
+}
+.filter{
+    background:linear-gradient(green,white);
+    width: 600px;
+    height: 430px;
+    position: absolute;
+    top: 80px;
+    left: 430px;
+    filter: blur(8px);
+
+}
+.world{
+    width: 100%;
+    height: 700px;
+    
+}
+.logo{
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.span{
+    margin-right:90px;
+}
+.spa{
+    margin-right: 100px;
+}
+.inp{
+    width: 240px;
+    
+}
+.cre-but{
+    background-color: rgb(247, 146, 5);
+    color: white;
+    width: 130px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+
+}
+.cre-but:hover{
+    background-color: rgb(3, 169, 3);
+
+}
+.login{
+    cursor: pointer;
+    color: rgb(5, 156, 5);
+
+}
+.login:hover{
+    color: red;
+}
+
+.google{
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.google:hover{
+    color: blue;
+}
+
+.youtube{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 384px;
+    left: 300px;
+}
+.youtube:hover{
+    color: blue;
+    cursor: pointer;
+}

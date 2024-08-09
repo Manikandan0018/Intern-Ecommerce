@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "img":"/Images/watch.jpg",
+        "name":"Smart Watch",
+        "des":"Most selled product of this year"
+    },
+    {
+        "id":2,
+        "img":"/Images/shoe.jpg",
+        "name":"Men shoes",
+        "des":"Most selled product of this year"
+    } ,{
+        "id":3,
+        "img":"/Images/school bag.jpg",
+        "name":"School bag",
+        "des":"Most selled product of this year"
+    } ,{
+        "id":4,
+        "img":"/Images/toys.jpg",
+        "name":"Kids Toys",
+        "des":"Most selled product of this year"
+    } ,{
+        "id":5,
+        "img":"/Images/watches2.jpg",
+        "name":"Branded Watch",
+        "des":"Most selled product of this year"
+    }
+]

@@ -1,0 +1,663 @@
+.logo{
+    width: 200px;
+
+}
+.sear{
+    width: 500px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 17px;
+    padding-left: 40px;
+    
+
+}
+.container{
+    display: flex;
+}
+.inn{
+    display: flex;
+
+}
+
+.men{
+    width: 70px;
+    height: 40px;
+    font-size: 24px;
+    margin-left: 30px;
+    border-right: 2px solid rgb(203, 196, 196);
+    margin-top: 20px;
+}
+.men:hover{
+    color: blue;
+    cursor: pointer;
+}
+.women{
+    width: 110px;
+    height: 40px;
+    font-size: 24px;
+    margin-left: 20px;
+    border-right: 2px solid rgb(203, 196, 196);
+    margin-top: 20px;
+}
+.women:hover{
+    color: blue;
+    cursor: pointer;
+}
+.child{
+    width: 90px;
+    height: 40px;
+    font-size: 24px;
+    margin-left: 20px;
+    border-right: 2px solid rgb(203, 196, 196);
+    margin-top: 20px;
+}
+.child:hover{
+    color: blue;
+    cursor: pointer;
+}
+.down{
+    width: 170px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 17px;
+    border-right: 2px solid rgb(203, 196, 196);
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    display: flex;
+    justify-content: center;
+}
+.down:hover{
+    color: blue;
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+.cart{
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+    margin-left: 550px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+
+}
+.cart:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+.mobile{
+    margin-top: 26px;
+    font-size: 19px;
+    position: absolute;
+    margin-left: 350px;
+}
+.profile{
+    width: 80px;
+    height: 40px;
+    font-size: 17px;
+    margin-left: 650px;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+
+}
+.profile:hover{
+    cursor: pointer;
+}
+
+.search-icon{
+    position: absolute;
+    left: 230px;
+    top: 26px;
+    font-size: 20px;
+    color: rgb(160, 162, 164);
+}
+.user{
+    position: absolute;
+    font-size: 20px;
+    left: 1425px;
+    top: 20px;
+}
+
+.slid{
+    width: 120px;
+    margin-right: 20px;
+   
+
+}
+.gif{
+    width: 100%;
+}
+.empty{
+    background-color: rgb(202, 195, 195);
+    width: 100%;
+    height: 2px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+.lady{
+    width: 100%;
+    background-position: center;
+    
+}
+.allWomen-inner{
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(225, 231, 236);
+    
+}
+.womenInner{
+    width: 222px; 
+    border-radius: 10px ;  
+    margin-right: 18px;
+    margin-left: 13px;
+    margin-top: 6px;
+    
+}
+.sel{
+    height: 200px;
+    /* background-color: red; */
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.fil{
+    display: flex;
+    gap: 50px;
+}
+.emp{
+    height: 1.5px;
+    width: 294px;
+    background-color: rgb(211, 210, 210);
+}
+.pro-for{
+    font-size: 30px;
+    font-weight: 400;
+}
+.sort{
+    padding-left: 10px;
+    width: 300px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 215, 215);
+}
+.sel-opt{
+    width: 190px;
+    height: 33px;
+    border: none;
+    font-size: 20px;
+}
+.sel-opt .opti{
+    width: 800px;
+}
+
+.cle{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(190, 92, 6);
+}
+.cle:hover{
+    cursor: pointer;
+    color: green;
+}
+.spa{
+    font-size: 13px;
+    height: 27px;
+}
+
+
+
+.color-cata{
+    margin-left: 120px;
+    margin-top: 10px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    width: 90px;
+    display: inline-block;
+  
+
+}
+
+.nam-colo{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.cat{
+    margin-left: 0px;
+    position: relative;
+}
+.cat-ser{
+    width: 284px;
+    padding-left: 27px;
+    height: 35px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.color-ser{
+    position: absolute;
+    top: 12px;
+    font-size: 14px;
+    left: 17px;
+
+}
+
+.colo-compi{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(241, 238, 238);
+    width: 285px;
+    height: 430px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-top: 10px;
+    margin-left: 8px;
+
+}
+.colo{
+    background-color: white;
+    border: 2px solid rgb(244, 243, 241);
+    width: 95px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top:4px;
+    
+}
+.colo-more{
+    margin-left: 10px;
+
+}
+
+.cat{
+    display: none;
+    z-index: 1;
+    background-color: rgb(236, 239, 241);
+    width: 300px;
+    height: 485px;
+    
+
+}
+
+.color-cata:hover .cat{
+    cursor: pointer;
+    display: block;
+
+}
+.hi{
+    width: 100%;
+    height: 500px;
+}
+.su{
+    margin-left: 70px;
+}
+.checkbox-con{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 294px;
+    background-color: rgb(253, 253, 253);
+    border: 2px solid rgb(246, 242, 242);
+}
+.catagory{
+    font-size: 17px;
+    
+}
+.chackbox-span{
+    font-size: 18px;
+    margin-left: 12px;
+}
+.check-show{
+    color: brown;
+    font-weight: 600;
+}
+.inn-checkbox{
+    margin-left: 10px;
+}
+.check-show:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.filter-con{
+    display: inline-block;
+}
+
+.brand-con{
+    position: absolute;
+    top: 0px;
+    width: 1082px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 434px;
+    margin-top: 1300px;
+
+}
+.brand-item{
+    width: 262px;
+    display: flex;
+    border: 2px solid rgb(225, 221, 221);
+}
+.nestvibe{
+    height: 600px;
+    width: 1510px;
+}
+.trend-con{
+    width: 200px;
+}
+.trend-im{
+    width: 1070px;
+    border: 2px solid ;
+    margin-left: 440px;
+    position: absolute;
+    top:1750px;
+    height: 180px;
+}
+
+.menitem-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 1200px;
+    width: 1494px;
+    margin-left: 10px;
+     gap: 20px;
+
+}
+
+.inmen-con{
+    border: 2px solid rgb(235, 233, 233);
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    height: 500px;
+    width: 350px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: rgb(243, 246, 249) ;
+
+}
+
+.menitem{
+    width: 190px;
+    height: 280px;
+    margin-bottom: 130px;
+
+}
+.menitem-span{
+    position: absolute;
+    text-align: center;
+    top:310px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.price-span{
+    position: relative;
+    bottom: 30px;
+    font-size: 20px;
+}
+.freedel-span{
+    position: absolute;
+    bottom: 50px;
+    font-weight: 500;
+    color: green;
+}
+.inmen-con:hover{
+    cursor: pointer;
+    box-shadow: 0 0 19px 1px gray;
+
+
+}
+.buy-bt{
+    width: 100px;
+    margin-bottom: 13px;
+    background-color: orange;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 8px;
+
+}
+.buy-bt:hover{
+    background-color: green;
+}
+.aagi{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+.aagi1{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi1.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+
+.aagi2{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi2.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+
+.aagi3{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+
+.aagi3.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+
+.aagi4{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi4.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+
+.aagi5{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi5.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+
+.aagi6{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi6.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+.aagi7{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi7.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+
+.aagi8{
+    margin-left: 280px;
+    position: absolute;
+    top: 10px;
+    font-size: 23px;
+    color: green;  
+
+}
+.aagi8.clicked {
+    color: red;
+    margin-left: 280px; 
+}
+ strike{
+    font-size: 18px;
+ }
+
+ .show-con{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(223, 227, 231);
+    margin-top: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .in-show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(57, 129, 59);
+    font-weight: 700;
+
+ }
+ .in-show:hover{
+    cursor: pointer;
+    text-decoration: underline;
+ }
+ .in-show{
+    text-decoration: none;
+ }
+
+ .end-con{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(45, 45, 63);
+    margin-top: 50px;
+    position: relative;
+
+ }
+ .in-back{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(79, 79, 118);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+ }
+ .in-back p{
+       margin-top: 17px;
+       font-size: 17px;
+ }
+
+ .end-get{
+    color: white;
+    margin-left: 230px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+ }
+ .connect{
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+    
+ }
+ .make{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:60px;
+    left: 870px;
+    cursor: pointer;
+ }
+ .end-hel{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    top: 60px;
+    left: 1200px;
+    position: absolute;
+    cursor: pointer;
+ }
+ 
